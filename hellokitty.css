@@ -1,0 +1,141 @@
+body {
+    background-color: #ffe6e6; /* Light pink background */
+    font-family: 'Comic Sans MS', sans-serif; /* Cute and playful font */
+    margin: 0;
+    padding: 0;
+    color: #ff69b4; /* Pink text color */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    /* Background images */
+    background-image: url('https://i.pinimg.com/736x/7b/77/42/7b77422e7870a084b6fb3094abacd622.jpg'), url('https://i.pinimg.com/736x/7b/77/42/7b77422e7870a084b6fb3094abacd622.jpg'), url('https://i.pinimg.com/736x/7b/77/42/7b77422e7870a084b6fb3094abacd622.jpg');
+    background-repeat: repeat;
+    /* Adjust background position to make bows float */
+    background-position: 50% 10%, 30% 50%, 70% 80%;
+}
+
+body {
+    background-color: #ffe6e6; /* Light pink background */
+    font-family: 'Comic Sans MS', sans-serif; /* Cute and playful font */
+    margin: 0;
+    padding: 0;
+    color: #ff69b4; /* Pink text color */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.header {
+    background-color: #ffb6c1; /* Light pink header */
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #ff69b4; /* Pink border */
+}
+
+.header h1 {
+    color: #fff; /* White heading text */
+    text-shadow: 2px 2px #ff69b4; /* Pink shadow for text */
+}
+
+.characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.character {
+    width: 250px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.character:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.5); /* Pink glow on hover */
+}
+
+.character img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.character h3 {
+    color: #ff69b4; /* Pink heading text */
+    margin-bottom: 10px;
+}
+
+.character p {
+    color: #ff1493; /* Darker pink for paragraph text */
+    margin-bottom: 15px;
+}
+
+.character button {
+    background-color: #ff69b4; /* Pink button */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.character button:hover {
+    background-color: #ff1493; /* Darker pink on hover */
+}
+
+.video-container {
+    text-align: center;
+    margin: 20px;
+}
+
+video {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #ffb6c1; /* Light pink background */
+    padding: 20px;
+    text-align: center;
+    border-top: 5px solid #ff69b4; /* Pink border */
+}
+
+.footer-images img {
+    width: 80px;
+    margin: 5px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.footer-images img:hover {
+    transform: scale(1.1);
+}
+.character-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.character-header .character-gif {
+    margin: 0 10px;
+}
+.character-header {
+    background-color: #ffcccc; /* Light pink background */
+    padding: 20px;
+    text-align: center;
+}
+
+.character-gifs {
+    display: flex;
+    justify-content: center;
+}
+
+.character-gifs img {
+    width: 100px; /* Set the width of all GIFs */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 10px; /* Adjust spacing between character images */
+}
